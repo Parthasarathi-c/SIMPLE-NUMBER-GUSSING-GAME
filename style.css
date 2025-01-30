@@ -31,7 +31,7 @@ input[type="number"]:focus
     border: 2px solid #ff8a5c;
 }
 
-body,h1
+body,h1,h3
 {
     border: 0;
     margin: 0;
@@ -42,18 +42,25 @@ h1
 {
     color: #4ba9d4;
     text-shadow:4px 40px 40px 4px rgb(171, 245, 111);
-
 }
 
-#s:hover
+h3
+{
+    color: #f55e5e;
+    padding: 4px;
+    text-shadow:4px 40px 40px 4px rgb(171, 245, 111);
+}
+
+#btn:hover
 {
     color: #c5429b;
     background-color: rgb(85, 241, 54);
-    border-radius: 4px;
-    text-shadow: 4px 4px 4px 4px rgb(192, 139, 197);
+    border-radius: 8px;
+    text-shadow: 4px 4px 4px 4px rgb(204, 91, 133);
+    box-shadow: 5px 8px 16px bisque
 }
 
-#s
+#btn
 {
     
         padding: 10px 20px;  
